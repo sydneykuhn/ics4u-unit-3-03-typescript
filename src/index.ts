@@ -54,7 +54,7 @@ for (let counter = 0; counter < randomNumArray.length; counter++) {
   randomNumArray[counter] = Math.floor(Math.random() * MAX + MIN)
 }
 
-randomNumArray.sort(function(a, b) {
+randomNumArray.sort(function (a, b) {
   return a - b
 })
 
